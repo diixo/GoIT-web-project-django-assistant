@@ -22,7 +22,7 @@ def search_by_category(request, category: str):
 # Create your views here.
 @login_required
 def main(request):
-    return render(request, 'app_download/index.html', context={"title": "DownLoad"})
+    return render(request, 'app_download/index.html', context={"title": "Downloaded categories catalog"})
 
 
 @login_required
